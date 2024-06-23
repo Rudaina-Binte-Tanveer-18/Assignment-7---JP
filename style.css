@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+i{
+    font-size: xx-large;
+    margin-top: 4px;    
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #e2e8c0;
+    text-shadow: 3px 3px 3px #443742;
+}
+
+a:hover {
+    color: #443742;
+    text-shadow: 2px 2px 3px #edd9a3;
+    font-weight: bolder;
+}
+
+#navbar {
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    background-color: #cea07e;
+    color: #443742;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#main {
+    background-image: url(main.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 3px 3px 3px #cea07e;
+}
+
+#heading {
+    margin: auto;
+    width: 75%;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    color: #1f1f1f;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading>p{
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #443742;
+    text-shadow: 2px 2px 2px #A9866D;
+}
+
+#about {
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    background-color: #e2e8c0;
+}
+
+#about_info {
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#about_intro {
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#intro {
+    text-align: justify;
+}
+
+img {
+    border: #59494a 5px solid;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
+#img>img {
+    width: 70%;
+}
+
+#img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services {
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    background-color: #edd9a3;
+    display: flex;
+    flex-direction: column;
+}
+
+#skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.sub_heading {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    color: #443742;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    padding: 22px;
+    border-radius: 20px;
+    border: #59494a 5px solid;
+    box-shadow: 4px 4px 4px #A9866D;
+}
+
+.card:hover{
+    width: 30.1%;
+    box-shadow: 7px 7px 7px 7px #A9866D;
+}
+
+.image {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.image>img {
+    width: 70%;
+    height: 10%;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px #A9866D;
+}
+
+.card>p {
+    color: #6f5a53;
+}
+
+#contact {
+    background-color: #cea07e;
+    padding: 30px;
+}
+
+#contact_me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left {
+    width: 45%;
+    color: #443742;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+#left p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#right {
+    width: 45%;
+    height: 100%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#contact input,
+textarea {
+    width: 100%;
+    font-size: medium;
+    background-color: #e2e8c0;
+    color: #1f1f1f;
+    padding: 10px 7px;
+    border-radius: 5px;
+    border: 3px solid #6f5a53;
+}
+
+#contact input:hover,
+textarea:hover {
+    box-shadow: 0 0 10px #59494a;
+}
+
+#contact input:focus,
+textarea:focus {
+    box-shadow: 0 0 10px #59494a;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+button {
+    color: #443742;
+    background-color: #e2e8c0;
+    border-radius: 30px;
+    font-size: large;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    border: #443742 solid 2px;
+
+}
+
+button:hover {
+    color: #e2e8c0;
+    background-color: #443742;
+    border: #e2e8c0 solid 2px;
+}
